@@ -1,0 +1,67 @@
+.productList-banner{
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+ width: 100vw;
+ margin: 0 auto;
+ max-width: 1170px; 
+}
+
+.itemsAll{ 
+ position: relative;
+ padding: 20px; 
+ margin: 10px;
+ background: #fff;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ border-radius: 6px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ overflow: hidden; 
+}
+
+.productImage{
+  position: relative;
+  width: 98%;
+  border-radius: 6px; 
+  border-bottom: 2px solid gray;
+  border-right: 2px solid gray; 
+  margin-bottom:10px;
+  transition: all 0.8s linear;  
+  height:180px;
+}
+
+ .bagbtn{
+  background:#f09d51;
+  border: 0 ;
+  position: absolute;
+  right:-39px;
+  top:86%;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+  transform: translateX(60%);
+  transition: all 0.5s linear;
+  width: 180px; 
+
+ }
+
+ .cart-plus{
+   margin-left: -35px;
+   margin-right: 10px;   
+ }
+
+ .itemsAll:hover .bagbtn{
+   transform: translateX(0);
+ }
+
+ .itemsAll:hover{
+        opacity: 0.8;
+ }
+ .productImage:hover{
+    transform:scale(1.1);
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+

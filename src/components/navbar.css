@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mohave:wght@600&family=Open+Sans:ital,wght@0,300;1,300&family=Oswald:wght@400;700&family=PT+Sans+Narrow&family=Permanent+Marker&family=Poppins:ital,wght@1,600&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@1,300;1,400&family=Teko:wght@500&display=swap');
+
+
+.navbar{
+  background: darkblue;
+  width: 100%;
+  position:sticky;
+	top: 0;
+  z-index: 1; 
+  align-items:center ;
+  padding: 5px ;
+  height: 60px;
+ 
+}
+
+.logo-name{
+   display: flex;
+   align-items: center;
+   justify-content: center;  
+   font-size: 22px; 
+   
+}
+
+.navbar-logo{
+  width: 50px;
+}
+
+.cartBTN{
+  padding: 6px 8px;
+  font-family: 'Oswald', sans-serif !important;
+  margin-right: 10px;
+  font-size: 20px;
+  background: transparent;
+  border: 2px solid #009ffd;
+  border-radius: 6px;
+  color: #009ffd;;;
+  transition: all 1s ease-in-out;
+}
+
+.cartBTN:hover{
+  background: darkblue;
+  color: aliceblue;
+  border: 2px solid aliceblue;
+  
+}
+
+.cartBTN span{
+  margin-left: 10px;
+}
+
+
+
+ 

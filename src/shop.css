@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mohave:wght@600&family=Open+Sans:ital,wght@0,300;1,300&family=Oswald:wght@400;700&family=PT+Sans+Narrow&family=Permanent+Marker&family=Poppins:ital,wght@1,600&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@1,300;1,400&family=Teko:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Oswald', sans-serif !important;
+  background: rgb(211, 211, 211) !important;
+  color: #232528 !important;
+  
+
+}
+
+
+
+
